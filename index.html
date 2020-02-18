@@ -13,6 +13,18 @@
           <section id ="leftColumn">
            <fieldset>
              <legend>Block One</legend>
+             <p>
+                 <input id="firstname" name="firstname" type="text" required autofocus placeholder="First Name" tabindex="1">
+                 <input id="lastname" name="lastname" type="text" required placeholder="Last Name" tabindex="2">
+                 <input id="email" name="email" type="email" required placeholder="email@address.com" tabindex="3">
+                 <input id="url" name="url" type="url" placeholder="URL">
+             </p>
+             <p>
+                 <label for="username">Username:</label>
+                 <input id="username" name="username" type="text">
+                 <label for="password">Password:</label>
+                 <input id="password" name="password" type="password">
+             </p>
            </fieldset>
            <fieldset>
                 <legend>Block two</legend>
@@ -22,10 +34,30 @@
           <section id="rightColumn">
             <fieldset>
               <legend>Block three</legend>
+              <p>
+                <span><input type="radio" name="color" value="red" checked>Red</span>
+                <span><input type="radio" name="color" value="green">Green</span>
+                <span><input type="radio" name="color" value="blue">Blue</span>
+                <span><input type="radio" name="color" value="cyan">Cyan</span>
+                <span><input type="radio" name="color" value="magenta">Magenta</span>
+                <span><input type="radio" name="color" value="yellow">Yellow</span>
+              </p>
+              <p>
+                <span><input type="checkbox" name="fruit" value="apple">Apple</span>
+                <span><input type="checkbox" name="fruit" value="orange">Orange</span>
+                <span><input type="checkbox" name="fruit" value="banana" checked>Banana</span>
+                <span><input type="checkbox" name="fruit" value="peach">Peach</span>
+                <span><input type="checkbox" name="fruit" value="pear">Pear</span>
+                <span><input type="checkbox" name="fruit" value="plumb">Plumb</span>
+              </p>
             </fieldset>
             <fieldset>
                 <legend>Block four</legend>
+                <textarea rows="4" cols="40" placeholder="What did you do today?"></textarea>
+
             </fieldset>
+            <p><a class="btn" href="#">Submit</a></p>
+
           </section>
 
          </div>
